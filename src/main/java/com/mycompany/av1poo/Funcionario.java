@@ -20,13 +20,13 @@ public class Funcionario {
     private boolean ativo;
     private Date dataCadastro;
 
-    public Funcionario(int IDFuncionario, String nome, String email, String telefone, int idade, boolean ativo) {
+    public Funcionario(int IDFuncionario, String nome, String email, String telefone, int idade) {
         this.IDFuncionario = IDFuncionario;
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
         this.idade = idade;
-        this.ativo = ativo;
+        this.ativo = true;
         this.dataCadastro = new Date();
     }
 
@@ -86,7 +86,9 @@ public class Funcionario {
         this.dataCadastro = dataCadastro;
     }
     
-    
+    public String atenderPedido(Pedido pedido) {
+        return "Pedido " + pedido.getIDPedido() + " sendo atendido pelo funcionario " + this.getNome();
+    }
     
     
     
