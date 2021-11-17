@@ -22,12 +22,14 @@ public class Pedido {
     private String IDPedido;
     private Date dataCriacao;
     private Cliente cliente;
+    private Funcionario funcionario;
     private float valorTotal;
     private ArrayList<DetalhesPedido> itens;
 
-    public Pedido(String IDPedido, Cliente cliente) {
+    public Pedido(String IDPedido, Cliente cliente, Funcionario funcionario) {
         this.IDPedido = IDPedido;
         this.cliente = cliente;
+        this.funcionario = funcionario;
         this.dataCriacao = new Date();
         this.itens = new ArrayList();
     }
@@ -103,7 +105,7 @@ public class Pedido {
     }
     
     public String finalizarPedido() {
-        return "\n Pedido " + this.getIDPedido() + "\n finalizado no valor de " + this.getValorTotal() + " !";
+        return "\n Pedido " + this.getIDPedido() + "\n atendido por " +this.funcionario.getNome() + "\n finalizado no valor de " + this.getValorTotal() + " !";
     }
     
     public String enviarPedido() {

@@ -20,7 +20,7 @@ public class APSPOO {
         System.out.println("APS - POO");
         
         //Simula cadastro de cliente
-        Cliente cliente01 = new Cliente(1111, "Leandro Ferreira", "leandro@email.com", "(21)2222-5555", "Rua do Leandro, 2563", 35); 
+        Cliente cliente01 = new Cliente(1111,"Rua do Leandro", "Leandro Ferreira", "leandro@email.com", "22223333", 35); 
         
         //Simula cadasto de funcionario
         Funcionario funcionario1 = new Funcionario(2222, "João Paulo", "joaopaulo@funcionario", "(21)3333-7777", 40);
@@ -35,9 +35,8 @@ public class APSPOO {
         Produto produto03 = new Produto(3333, "Papel Glossy", fornecedor02, 5.30f);
         
         //Simula cadastro de pedido
-        Pedido pedido01 = new Pedido("JKHL456LB", cliente01);
+        Pedido pedido01 = new Pedido("JKHL456LB", cliente01, funcionario1);
         
-                
         pedido01.adcionarItem(produto01, 2);
         pedido01.adcionarItem(produto02, 1);
         pedido01.adcionarItem(produto03, 4);
