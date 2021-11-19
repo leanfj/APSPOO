@@ -8,12 +8,11 @@ package com.mycompany.av1poo;
 /**
  *
  * @author 
- * 
- * Leandro Ferreira - 2020101253
- * Theo Melo - 
- * Gabriel Frazão - 
- * Lucas Coutinho - 
- * Marco - 
+ *  Gabriel De Sousa Frazao – 2020101238
+    Leandro Ferreira de Jesus – 2020101253
+    Lucas De Vasconcellos Da Silva Coutinho – 2018101893
+    Marcus Vinícius Ferreira de Oliveira - 2020100058
+    Theo Vinicius Torres Da Luz Fernandes Melo – 2020100735
  */
 public class Produto {
     private int IDProduto;

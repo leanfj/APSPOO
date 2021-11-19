@@ -1,19 +1,16 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * APS AV 2
  */
 package com.mycompany.av1poo;
 
 /**
  *
  * @author 
- * 
- * Leandro Ferreira - 2020101253
- * Theo Melo - 
- * Gabriel Frazão - 
- * Lucas Coutinho - 
- * Marco - 
+ *  Gabriel De Sousa Frazao – 2020101238
+    Leandro Ferreira de Jesus – 2020101253
+    Lucas De Vasconcellos Da Silva Coutinho – 2018101893
+    Marcus Vinícius Ferreira de Oliveira - 2020100058
+    Theo Vinicius Torres Da Luz Fernandes Melo – 2020100735
  */
 public class APSPOO {
     public static void main(String[] args) {

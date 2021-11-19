@@ -11,12 +11,11 @@ import java.util.Date;
 /**
  *
  * @author 
- * 
- * Leandro Ferreira - 2020101253
- * Theo Melo - 
- * Gabriel Frazão - 
- * Lucas Coutinho - 
- * Marco - 
+ *  Gabriel De Sousa Frazao – 2020101238
+    Leandro Ferreira de Jesus – 2020101253
+    Lucas De Vasconcellos Da Silva Coutinho – 2018101893
+    Marcus Vinícius Ferreira de Oliveira - 2020100058
+    Theo Vinicius Torres Da Luz Fernandes Melo – 2020100735
  */
 public class Pedido {
     private String IDPedido;
@@ -88,11 +87,11 @@ public class Pedido {
     }
     
     public void listarItems() {
-        System.out.println(" Pedido " + this.getIDPedido());
+        System.out.println("\n Pedido " + this.getIDPedido());
         for (int i = 0; i < itens.size(); i++) {
-            System.out.printf("Item - %d - %s \n", i, itens.get(i));
+            System.out.printf("\n Item - %d - %s \n", i, itens.get(i));
         }
-        System.out.println("\nValor Total - " + this.getValorTotal());
+        System.out.println("\n Valor Total - " + this.getValorTotal());
     }
     
     
